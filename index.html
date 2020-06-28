@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Agency - Start Bootstrap Theme</title>
+  <title>두희 ❤ 슬아</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -492,6 +492,46 @@
         <div class="col-md-4">
           <span class="copyright">Copyright &copy; Your Website 2019</span>
         </div>
+
+        <div class="container">
+          <div class="row">
+              <a id="kakao-link-btn" href="javascript:;">
+                  <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" style="width: 5%; height: auto;"/>
+                  <h4>카카오톡으로 전송</h4>
+              </a>
+              <script type='text/javascript'>
+                  //<![CDATA[
+                  // // 사용할 앱의 JavaScript 키를 설정해 주세요.
+                  Kakao.init('3a1a76bca71b05bc7544d7e6ab7cd6bf');
+                  // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+                  Kakao.Link.createDefaultButton({
+                      container: '#kakao-link-btn',
+                      objectType: 'location',
+                      address: '세빛섬 플로팅아일랜드',
+                      addressTitle: '세빛섬 플로팅 아일랜드',
+                      content: {
+                      title: '슬아 ♥︎ 두희 결혼합니다.',
+                      description: '2020년 9월 26일 세빛섬 플로팅 아일랜드',
+                      imageUrl: 'https://seula-s2-duhui.github.io/img/header-bg.jpg',
+                      link: {
+                          mobileWebUrl: 'https://seula-s2-duhui.github.io',
+                          webUrl: 'https://seula-s2-duhui.github.io'
+                      }
+                      },
+                      buttons: [
+                      {
+                          title: '청첩장 보기',
+                          link: {
+                          mobileWebUrl: 'https://seula-s2-duhui.github.io',
+                          webUrl: 'https://seula-s2-duhui.github.io'
+                          }
+                      }
+                      ]
+                  });
+                  //]]>
+              </script>
+          </div>
+      </div>
         <!-- <div class="col-md-4">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
