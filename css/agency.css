@@ -49,6 +49,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 15px;
   font-family: 'Jeju';
+  letter-spacing: -0.02em;
 }
 
 .page-section h3.section-subheading {
@@ -61,12 +62,13 @@ h6 {
 }
 
 .page-section h3.port-subheading {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 400;
   margin-bottom: 75px;
   text-transform: none;
   font-family: 'Jeju';
-  color: #ad0202;
+  color: #ff5580;
+  letter-spacing: -0.02em;
 }
 
 @media (min-width: 768px) {
@@ -261,7 +263,7 @@ header.masthead .intro-text .intro-heading {
   height: 100%;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(43, 0, 0, 0.5);
+  background: rgba(256, 256, 256, 0.5);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -644,6 +646,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .main-font{
   font-family: 'Jeju';
+  letter-spacing: -0.02em;
 }
 
 .thum-wrap {
